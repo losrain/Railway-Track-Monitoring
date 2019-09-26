@@ -1,0 +1,16 @@
+.dt-content{
+  width: 1920px;
+  height: 1080px;
+  background: url('imgs/bg.png') left top no-repeat;
+}
+.dt-gui{
+  width: 1530px;
+  height: 110px;
+  border-top: 8px solid rgb(72, 146, 157);
+  border-bottom: 8px solid rgb(72, 146, 157);
+}
+.dt-gui-text{
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}

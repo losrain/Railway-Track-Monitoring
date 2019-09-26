@@ -20,6 +20,7 @@ body{
     width: 100%;
     height: 100vh;
     position: relative;
+    background: rgb(6,19,49);
 }
 /* header样式 */
 .header {
@@ -33,16 +34,15 @@ body{
 /* content样式 */
 .content{
     width: 100%;
+    padding-left: 120px;
 }
 /* left样式 */
 .left{
     position: absolute;
     top: 81px;
     left: 0;
-    min-height: 100%;
     width: 120px;
     z-index: 1;
-    border-right: 1px #eee solid;
 }
 .left dl{
     padding-top: 10px; 
@@ -67,8 +67,9 @@ body{
 }
 /* right样式 */
 .right{
-    padding-left: 135px;
+    padding-left: 15px;
     padding-top: 15px;
+    border-left: 1px #eee solid;
 }
 /* 搜索样式 */
 .form{

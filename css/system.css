@@ -4,5 +4,130 @@ body{
 .dt-content{
   width: 1920px;
   height: 1080px;
-  background: url('imgs/page1.jpg') left top no-repeat;
+  background: url('imgs/bg.png') left top no-repeat;
+  overflow: hidden;
+}
+.s1{
+  margin-left: 815px;
+  height: 155px;
+  margin-top: 103px;
+  position: relative;
+}
+.s2{
+  margin-left: 637px;
+  height: 155px;
+  margin-top: -66px;
+  position: relative;
+  position: relative;
+}
+.s3{
+  margin-left: 459px;
+  height: 155px;
+  margin-top: -66px;
+  position: relative;
+  position: relative;
+}
+.s4{
+  margin-left: 281px;
+  height: 155px;
+  margin-top: -66px;
+  position: relative;
+  position: relative;
+}
+.s5{
+  margin-left: 103px;
+  height: 155px;
+  margin-top: -66px;
+  position: relative;
+  position: relative;
+}
+.s1_a{
+  height: 155px;
+  width: 235px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.s1_b{
+  height: 155px;
+  width: 235px;
+  position: absolute;
+  float: left;
+  top: 80px;
+  left: 139px;
+}
+.s1_c{
+  height: 155px;
+  width: 235px;
+  position: absolute;
+  float: left;
+  top: 160px;
+  left: 274px;
+}
+.s1_d{
+  height: 155px;
+  width: 235px;
+  position: absolute;
+  float: left;
+  top: 240px;
+  left: 409px;
+}
+.s1_e{
+  height: 155px;
+  width: 235px;
+  position: absolute;
+  float: left;
+  top: 320px;
+  left: 544px;
+}
+.s1_f{
+  height: 155px;
+  width: 235px;
+  position: absolute;
+  float: left;
+  top: 400px;
+  left: 679px;
+}
+.x_shang{
+  position: absolute;
+  left: 50px;
+  top: 0px;
+  width: 137px;
+  height: 82px;
+  background: url('imgs/line1.png') top left no-repeat;
+}
+.x_xia{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 137px;
+  height: 82px;
+  background: url('imgs/line1.png') top left no-repeat;
+}
+.x_sys1{
+  position: absolute;
+  right: 2px;
+  top: -31px;
+  width: 114px;
+  height: 155px;
+  background: url('imgs/bliud1.png') top right no-repeat;
+  z-index: 10;
+}
+.x_sys2{
+  position: absolute;
+  right: 12px;
+  top: -35px;
+  width: 107px;
+  height: 155px;
+  background: url(imgs/bliud2.png) top right no-repeat;
+  z-index: 10;
+}
+.x_sys3{
+  position: absolute;
+  right: 12px;
+  top: -35px;
+  width: 107px;
+  height: 155px;
+  background: url(imgs/bliud3.png) top right no-repeat;
+  z-index: 10;
 }

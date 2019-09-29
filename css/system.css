@@ -1,0 +1,8 @@
+body{
+  /* overflow-x: hidden; */
+}
+.dt-content{
+  width: 1920px;
+  height: 1080px;
+  background: url('imgs/page1.jpg') left top no-repeat;
+}

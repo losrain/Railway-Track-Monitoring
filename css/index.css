@@ -1,13 +1,10 @@
+body{
+  /* overflow-x: hidden; */
+}
 .dt-content{
   width: 1920px;
   height: 1080px;
   background: url('imgs/page1-1..jpg') left top no-repeat;
-}
-.dt-gui{
-  width: 1530px;
-  height: 110px;
-  border-top: 8px solid rgb(72, 146, 157);
-  border-bottom: 8px solid rgb(72, 146, 157);
 }
 .dt-biao{
   height: 730px;
@@ -19,34 +16,175 @@
   float: left;
   position: relative;
 }
+.dt-gui-tcon{
+  overflow: hidden;
+}
 .dt-center{
   position: absolute;
   left: 50%;
-  top: 350px;
-  width: 250px;
-  height: 250px;
-  line-height: 250px;
+  top: 366px;
+  width: 254px;
+  height: 254px;
+  line-height: 254px;
   text-align: center;
+  background: url('imgs/round.png') center no-repeat;
+  margin-left: -127px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
 }
 .dt-con-x{
-  margin-top: 410px;
+  margin-top: 415px;
   width: 1590px;
-  height: 20px;
+  height: 15px;
 }
+.dt-con-x-b{
+  margin-top: 0px;
+  width: 1590px;
+  height: 15px;
+}
+
+.dt-con-x-b .dt-gui-x-left .dt-gui-x-1{
+  position: absolute;
+  width: 23px;
+  height: 12px;
+  left: -23px;
+  top: 7px;
+  background: url('imgs/111-b.png') top left no-repeat;
+}
+.dt-con-x-b .dt-gui-x-left .dt-gui-x-2{
+  position: absolute;
+  width: 35px;
+  height: 12px;
+  left: -35px;
+  top: 7px;
+  background: url('imgs/icon555-b.png') top left no-repeat;
+}
+.dt-con-x-b .dt-gui-x-right .dt-gui-x-1{
+  position: absolute;
+  width: 23px;
+  height: 12px;
+  right: -1px;
+  top: 7px;
+  background: url('imgs/111-b.png') top left no-repeat;
+}
+.dt-con-x-b .dt-gui-x-right .dt-gui-x-2{
+  position: absolute;
+  width: 35px;
+  height: 12px;
+  right: -1px;
+  top: 7px;
+  background: url('imgs/icon555-b.png') top left no-repeat;
+}
+
+
 .dt-gui-x-left{
-  width: 640px;
-  height: 20px;
+  width: 656px;
+  height: 15px;
   float: left;
   display: flex;
+  margin-left: 30px;
 }
 .dt-gui-x{
-  margin-top: 5px;
+  position: relative;
+}
+.dt-con-x .dt-gui-x-b{
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 100%;
+  height: 8px;
+  background: #f00;
+}
+.dt-gui-x-b1{
+  background: none!important;
+}
+.dt-con-x-b .dt-gui-x-b{
+  position: absolute;
+  left: 0;
+  top: -8px;
+  width: 100%;
+  height: 8px;
+  background: #f00;
+}
+.dt-gui-x-b img{
+  position: absolute;
+  width: 27px;
+  height: 24px;
+  top: -8px;
+  left: 50%;
+  margin-left: -13px;
+}
+.dt-gui-x-right{
+  width: 656px;
+  height: 15px;
+  float: right;
+  display: flex;
+  margin-right: 30px;
+}
+.dt-con-x-b .dt-gui-cha{
+  position: absolute;
+  width: 370px;
+  height: 290px;
+  background: url('imgs/line3333.png') center no-repeat;
+  left: -1px;
+  bottom: 10px;
+}
+.dt-con-x .dt-gui-cha{
+  position: absolute;
+  width: 225px;
+  height: 164px;
+  background: url('imgs/line4444.png') center no-repeat;
+  left: -1px;
+  bottom: -8px;
+  z-index: 10;
+}
+
+.dt-con-x .dt-gui-cha1{
+  position: absolute;
+  width: 370px;
+  height: 290px;
+  background: url('imgs/line111.png') center no-repeat;
+  right: -1px;
+  top: 10px;
+}
+.dt-con-x-b .dt-gui-cha1{
+  position: absolute;
+  width: 225px;
+  height: 164px;
+  background: url('imgs/line2222.png') center no-repeat;
+  right: -1px;
+  top: -8px;
+}
+.dt-gui-x-left .dt-gui-x{
   flex: 1;
   border-left: 1px solid rgb(72, 146, 157);
   height: 15px;
   position: relative;
 }
-.dt-gui-x-1{
+.dt-gui-x-right .dt-gui-x{
+  flex: 1;
+  border-right: 1px solid rgb(72, 146, 157);
+  height: 15px;
+  position: relative;
+}
+.dt-gui-x-right .dt-gui-x-1{
+  position: absolute;
+  width: 23px;
+  height: 12px;
+  right: -23px;
+  top: -5px;
+  background: url('imgs/111.png') top left no-repeat;
+}
+.dt-gui-x-right .dt-gui-x-2{
+  position: absolute;
+  width: 35px;
+  height: 12px;
+  right: -35px;
+  top: -5px;
+  background: url('imgs/icon555.png') top left no-repeat;
+}
+.dt-gui-x-left .dt-gui-x-1{
   position: absolute;
   width: 23px;
   height: 12px;
@@ -54,7 +192,7 @@
   top: -5px;
   background: url('imgs/111.png') top left no-repeat;
 }
-.dt-gui-x-2{
+.dt-gui-x-left .dt-gui-x-2{
   position: absolute;
   width: 35px;
   height: 12px;
@@ -62,15 +200,41 @@
   top: -5px;
   background: url('imgs/icon555.png') top left no-repeat;
 }
-.dt-gui-x-right{
+.dt-gui-left{
+  width: 656px;
+  height: 110px;
+  border-top: 8px solid rgb(72, 146, 157);
+  border-bottom: 8px solid rgb(72, 146, 157);
+  margin-left: 30px; 
+  float: left;
+}
+.dt-gui-right{
   float: right;
-  width: 640px;
-  height: 20px;
+  width: 656px;
+  height: 110px;
+  border-top: 8px solid rgb(72, 146, 157);
+  border-bottom: 8px solid rgb(72, 146, 157);
+  margin-right: 30px; 
+}
+.dt-con-t{
+  margin-top: 10px;
+}
+.dt-con-t-b{
+  margin-top: 50px;
+}
+.dt-gui-t-left{
+  display: flex;
+  width: 656px;
+}
+.dt-gui-t-left{
+  display: flex;
+  width: 656px;
 }
 .dt-gui-text{
   font-size: 16px;
   text-align: center;
   color: #fff;
+  flex: 1;
 }
 .dt-left{
   width: 164px;
@@ -92,4 +256,38 @@
   color: #fff;
   font-weight: bold;
   margin-top: 475px;
+}
+.dt-zhu{
+  height: 24px;
+  line-height: 24px;
+  font-size: 20px;
+  color: #fff;
+  padding: 0 220px;
+  padding-top: 50px;
+}
+.dt-zhu-t{
+  float: left;
+  padding: 0 60px;
+}
+.dt-zhu-t img{
+  width: 27px;
+  height: 24px;
+  float: left;
+  margin-right: 20px;
+}
+.dt-zhu-1{
+  width: 85px;
+  height: 8px;
+  float: left;
+  margin-right: 20px;
+  background: rgb(72, 146, 157);
+  margin-top: 8px;
+}
+.dt-zhu-2{
+  margin-top: 8px;
+  width: 85px;
+  height: 8px;
+  float: left;
+  margin-right: 20px;
+  background: #f00;
 }

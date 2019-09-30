@@ -104,6 +104,9 @@ body{
   height: 82px;
   background: url('imgs/line1.png') top left no-repeat;
 }
+.x_shang1,.x_xia1{
+  background: url('imgs/linered2.png') top left no-repeat;
+}
 .x_sys1{
   position: absolute;
   right: 2px;
@@ -124,10 +127,37 @@ body{
 }
 .x_sys3{
   position: absolute;
-  right: 12px;
-  top: -35px;
-  width: 107px;
-  height: 155px;
-  background: url(imgs/bliud3.png) top right no-repeat;
+  right: -10px;
+  top: -12px;
+  width: 134px;
+  height: 146px;
+  background: url(imgs/bliud4.png) top right no-repeat;
+  z-index: 10;
+}
+.x_sys4{
+  position: absolute;
+  right: -13px;
+  top: 4px;
+  width: 153px;
+  height: 130px;
+  background: url(imgs/bliud5.png) top right no-repeat;
+  z-index: 10;
+}
+.x_sys5{
+  position: absolute;
+  right: 3px;
+  top: -13px;
+  width: 123px;
+  height: 138px;
+  background: url(imgs/bliud6.png) top right no-repeat;
+  z-index: 10;
+}
+.x_sys6{
+  position: absolute;
+  right: -8px;
+  top: 4px;
+  width: 148px;
+  height: 129px;
+  background: url(imgs/5429.png) top right no-repeat;
   z-index: 10;
 }

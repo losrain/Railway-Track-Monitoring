@@ -27,7 +27,7 @@ body{
     height: 80px;
     font-size: 26px;
     line-height: 80px;
-    color: #333;
+    color: #ccc;
     padding-left: 30px;
     border-bottom: 1px solid #eee;
 }
@@ -51,12 +51,12 @@ body{
     text-align: center;
     line-height: 50px;
     font-size: 16px;
-    color: #666;
+    color: #ccc;
     cursor: pointer;
 }
 .left dd a{
     display: block;
-    color: #666;
+    color: #ccc;
 }
 .left dd a:hover, .left dd.on a{
     color: #20A0FF;

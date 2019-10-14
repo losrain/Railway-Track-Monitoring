@@ -6,6 +6,7 @@ body{
   height: 1080px;
   background: url('imgs/bg.png') left top no-repeat;
   overflow: hidden;
+  position: relative;
 }
 .s1{
   margin-left: 815px;
@@ -160,4 +161,114 @@ body{
   height: 129px;
   background: url(imgs/5429.png) top right no-repeat;
   z-index: 10;
+}
+.error{
+  position: absolute;
+  width: 109px;
+  height: 70px;
+  right: 79px;
+  top: 13px;
+  z-index: 1;
+  background: url('imgs/worring-border.png') center no-repeat;
+  background-size: 100% 100%;
+}
+.notice{
+  position: absolute;
+  width: 109px;
+  height: 70px;
+  right: 79px;
+  top: 13px;
+}
+.error img, .notice img{
+  width: 23px;
+  height: 20px;
+  position: absolute;
+  left: 28px;
+  top: 30px;
+}
+.msg{
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  width: 280px;
+  overflow: hidden;
+}
+.msg-t{
+  width: 280px;
+  height: 51px;
+  text-align: center;
+  line-height: 51px;
+  font-size: 24px;
+  color: #ff3636;
+  margin-bottom: 10px;
+  background: url('imgs/t-bg.png') center no-repeat;
+}
+.msg-item{
+  width: 280px;
+  border-left: 2px solid #2f488a;
+  background: rgba(47, 72, 138, 0.4);
+  margin-top: 15px;
+}
+.msg-item-t{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  padding-top: 10px;
+}
+.msg-item-t img{
+  width: 27px;
+  height: 24px;
+  padding: 6px;
+}
+.msg-txt{
+  flex: 1;
+  font-size: 16px;
+  color: #ff3636;
+}
+.msg-item-con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  margin-top: 6px;
+  padding-bottom: 10px;
+  padding-top: 6px;
+  border-top: 1px solid #2f488a;
+}
+.diandian{
+  margin: 0 16px;
+  width: 6px;
+  height: 6px;
+  background: #ff3636;
+  border-radius: 50%;
+}
+.msg-con-t{
+  flex: 1;
+  font-size: 14px;
+  color: #fff;
+}
+.msg-con-t span{
+  float: right;
+}
+.tool{
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  width: 300px;
+}
+.tool-item{
+  width: 150px;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+.tool-item div{
+  width: 60px;
+}
+.tool-item span{
+  color: #fff;
+  font-size: 16px;
 }

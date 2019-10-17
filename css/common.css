@@ -99,14 +99,13 @@ body{
 }
 /* table样式 */
 table{
-    border-top: 1px solid #ddd;
-    border-left: 1px solid #ddd;
+    border-top: 1px solid #EBEEF5;
+    border-left: 1px solid #EBEEF5;
 }
 th{
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #EBEEF5;
 }
 td{
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #EBEEF5;
+    border-bottom: 1px solid #EBEEF5;
 }

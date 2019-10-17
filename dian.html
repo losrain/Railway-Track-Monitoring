@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>index</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/dian.css">
+	<link rel="stylesheet" href="css/datepicker.css" />
+</head>
+
+<body>
+	<div class="header">25周相敏轨道电路信号监测系统</div>
+	<div class="content">
+		<div class="left">
+			<dl>
+					<dd><a href="index.html">首页</a></dd>
+          <dd><a href="system.html">实时数据</a></dd>
+          <dd><a href="charts.html">历史曲线</a></dd>
+          <dd><a href="baojing.html">历史报警</a></dd>
+          <dd><a href="sysStatus.html">系统状态</a></dd>
+          <dd><a href="export.html">数据导出</a></dd>
+          <dd><a href="sysTable.html">系统管理</a></dd>
+          <dd class="on"><a href="dian.html">电压</a></dd>
+			</dl>
+		</div>
+		<div class="right">
+			<div class="form">
+			<div class="ex-item">
+			<span>起始时间</span>
+				<div class="mt40">
+					<div class="c-datepicker-date-editor J-datepicker-range mt10">
+						<i class="c-datepicker-range__icon kxiconfont icon-clock"></i>
+						<input placeholder="开始日期" name="" class="c-datepicker-data-input" value="2018-01-01 04:00:00">
+						<span class="c-datepicker-range-separator">-</span>
+						<input placeholder="结束日期" name="" class="c-datepicker-data-input" value="2018-03-01 04:00:00">
+					</div>
+				</div>
+			</div>
+			</div>
+			<div class="table">
+				<table border="1" cellspacing="0" width="100%">
+					<tr>
+						<td rowspan="3">区段名称</td>
+						<td colspan="2" rowspan="2">室内</td>
+						<td colspan="23">BG25变压器送端初级</td>
+						<td colspan="23">BG25变压器送端次级</td>
+					</tr>
+					<tr>
+						<td colspan="12">电压</td>
+						<td colspan="11">电流</td>
+						<td colspan="12">电压</td>
+						<td colspan="11">电流</td>
+					</tr>
+					<tr>
+						<td>25Hz电压
+							（V）</td>
+						<td>相位
+							（°）</td>
+						<td>25Hz电压
+							（V）</td>
+						<td>50Hz电压
+							（V）</td>
+						<td>移频低频频率
+							（Hz）</td>
+						<td>移频中心频率
+							（Hz）</td>
+						<td>移频中心频率幅度
+							（Hz）</td>
+						<td>移频上边频频率（Hz）</td>
+						<td>移频上边频幅度（V）</td>
+						<td>移频下边频频率（Hz）</td>
+						<td>移频下边频幅度（V）</td>
+						<td>相邻区段移频中心频率（Hz）</td>
+						<td>相邻区段叠加移频中心频率电压（V）</td>
+						<td>25Hz电流幅度（A）</td>
+						<td>50Hz电流幅度（A）</td>
+						<td>移频低频频率
+							（Hz）</td>
+						<td>移频中心频率（Hz）</td>
+						<td>移频中心频率幅度（A）</td>
+						<td>移频上边频频率（Hz）</td>
+						<td>移频上边频幅度（A）</td>
+						<td>移频下边频频率（Hz）</td>
+						<td>移频下边频幅度（A）</td>
+						<td>相邻区段移频中心频率（Hz）</td>
+						<td>相邻区段叠加移频中心频率电流（A）</td>
+						<td>相邻区段低频频率（Hz）</td>
+						<td>25Hz电压
+							（V）</td>
+						<td>50Hz电压
+							（V）</td>
+						<td>移频低频频率
+							（Hz）</td>
+						<td>移频中心频率
+							（Hz）</td>
+						<td>移频中心频率幅度
+							（Hz）</td>
+						<td>移频上边频频率（Hz）</td>
+						<td>移频上边频幅度（V）</td>
+						<td>移频下边频频率（Hz）</td>
+						<td>移频下边频幅度（V）</td>
+						<td>相邻区段移频中心频率（Hz）</td>
+						<td>相邻区段叠加移频中心频率电压（V）</td>
+						<td>25Hz电流幅度（A）</td>
+						<td>50Hz电流幅度（A）</td>
+						<td>移频低频频率
+							（Hz）</td>
+						<td>移频中心频率（Hz）</td>
+						<td>移频中心频率幅度（A）</td>
+						<td>移频上边频频率（Hz）</td>
+						<td>移频上边频幅度（A）</td>
+						<td>移频下边频频率（Hz）</td>
+						<td>移频下边频幅度（A）</td>
+						<td>相邻区段移频中心频率（Hz）</td>
+						<td>相邻区段叠加移频中心频率电流（A）</td>
+						<td>相邻区段低频频率（Hz）</td>
+					</tr>
+				</table>
+			</div>
+			
+		</div>
+	</div>
+</body>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/datepicker.all.js"></script>
+<script src="js/common.js"></script>
+<script src="js/date.js"></script>
+
+</html>
